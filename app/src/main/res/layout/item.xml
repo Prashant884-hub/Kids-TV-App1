@@ -1,0 +1,42 @@
+<!-- res/layout/activity_pin.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/background">
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="16dp"
+        android:text="Enter PIN "
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/appIcon"
+        android:layout_width="65dp"
+        android:layout_height="62dp"
+        android:src="@drawable/ic_launcher_foreground" />
+
+    <EditText
+        android:id="@+id/pinInput"
+        android:layout_width="219dp"
+        android:layout_height="59dp"
+        android:gravity="center"
+        android:hint="Enter PIN"
+        android:inputType="numberPassword"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="142dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="16dp"
+        android:text="Submit" />
+</LinearLayout>
